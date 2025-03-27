@@ -8,4 +8,4 @@ def createDirectory(filePath: str, dirName: str):
     if not isDirExists:
         os.mkdir(directory)
         isDirExists = True
-    print(isDirExists)
+    return directory
